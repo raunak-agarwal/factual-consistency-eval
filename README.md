@@ -8,7 +8,7 @@ Docs:
 Models Available here:
 - [factual-consistency-t5-base](https://huggingface.co/ragarwal/factual-consistency-t5-base)
 - [factual-consistency-t5-large](https://huggingface.co/ragarwal/factual-consistency-t5-large)
-
+- [factual-consistency-llama3-8b](https://huggingface.co/ragarwal/factual-consistency-llama3-8b)
 
 
 
