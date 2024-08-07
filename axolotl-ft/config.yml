@@ -1,0 +1,70 @@
+base_model: meta-llama/Llama-2-7b-chat-hf
+
+model_type: LlamaForCausalLM
+tokenizer_type: LlamaTokenizer
+is_llama_derived_model: true
+
+load_in_8bit: false
+load_in_4bit: false
+strict: false
+
+datasets:
+  - path: ./data/seahorse-train-axolotl.jsonl
+    type:
+      system_prompt: ""
+      field_system: system
+      format: "[INST] {instruction} [/INST]"
+      no_input_format: "[INST] {instruction} [/INST]"
+val_set_size: 0
+dataset_prepared_path: ./data/last_run_prepared
+
+output_dir: ./models/
+
+sequence_len: 2048
+sample_packing: false
+
+# This will report stats from your training run to https://wandb.ai/. If you don't want to create a wandb account you can comment this section out.
+wandb_project: seahorse
+wandb_entity:
+wandb_watch:
+wandb_name: seahorse-ft
+wandb_run_id: run1
+wandb_log_model:
+
+gradient_accumulation_steps: 1
+micro_batch_size: 4
+num_epochs: 4
+optimizer: paged_adamw_32bit
+lr_scheduler: cosine
+learning_rate: 0.0002
+
+train_on_inputs: false
+group_by_length: false
+bf16: true
+fp16: false
+tf32: false
+
+
+logging_steps: 1
+xformers_attention:
+flash_attention: true
+flash_attn_cross_entropy: false
+flash_attn_rms_norm: true
+flash_attn_fuse_qkv: false
+flash_attn_fuse_mlp: true
+
+warmup_ratio: 0.05  # cannot use with warmup_steps
+learning_rate: 0.00001
+
+saves_per_epoch: 1
+
+
+weight_decay: 0.01
+
+special_tokens:
+  bos_token: "<s>"
+  eos_token: "</s>"
+  unk_token: "<unk>"
+
+
+torch_compile: true

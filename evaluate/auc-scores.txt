@@ -1,0 +1,149 @@
+FactAlign-Base:
+aggrefact_cnndm         0.685507
+aggrefact_xsum          0.740744
+alisawuffles/wanli      0.877220
+anli                    0.753980
+bump_cnndm              0.685735
+dadc-nli                0.861109
+defacto                 0.773091
+diasumfact_qmsum        0.704968
+diasumfact_samsum       0.763769
+fib_cnndm               0.249822
+fib_xsum                0.818229
+foolmetwice             0.918891
+gumsum_gumsum           0.817130
+halueval_cnndm          0.598229
+instrusum_instrusum     0.561364
+llm_summaries_cnndm     0.843179
+llm_summaries_xsum      0.757306
+scitail                 0.984603
+seahorse                0.721201
+tofueval_mediasum       0.782645
+tofueval_meetingbank    0.764710
+wice                    0.865959
+
+
+FactAlign-Large:
+aggrefact_cnndm         0.696895
+aggrefact_xsum          0.748482
+alisawuffles/wanli      0.889535
+anli                    0.833812
+bump_cnndm              0.769488
+dadc-nli                0.899190
+defacto                 0.808225
+diasumfact_qmsum        0.624879
+diasumfact_samsum       0.765909
+fib_cnndm               0.559553
+fib_xsum                0.874898
+foolmetwice             0.940031
+gumsum_gumsum           0.829167
+halueval_cnndm          0.673817
+instrusum_instrusum     0.547666
+llm_summaries_cnndm     0.854328
+llm_summaries_xsum      0.758538
+scitail                 0.992728
+seahorse                0.744378
+tofueval_mediasum       0.752031
+tofueval_meetingbank    0.757586
+wice                    0.887843
+
+ROUGE:
+DADC-NLI                0.454624
+DeFacto                 0.495414
+FoolMeTwice             0.548295
+Seahorse                0.497574
+WiCE                    0.520991
+aggrefact_cnndm         0.656874
+aggrefact_xsum          0.454544
+alisawuffles/WANLI      0.509845
+anli                    0.445680
+bump_cnndm              0.509019
+diasumfact_QMSum        0.513332
+diasumfact_SAMSum       0.536433
+fib_cnndm               0.087343
+fib_xsum                0.393817
+gumsum_gumsum           0.672685
+halueval_cnndm          0.375709
+instrusum_instrusum     0.430553
+llm_summaries_cnndm     0.830838
+llm_summaries_xsum      0.594695
+scitail                 0.763403
+tofueval_mediasum       0.553942
+tofueval_meetingbank    0.655976
+
+
+gpt-3.5-turbo
+DADC-NLI                 0.8574325107171822
+DeFacto                   0.6567583188836595
+FoolMeTwice              0.9221841962591489
+Seahorse                  0.7212830976205118
+WiCE                    0.5756862745098039
+aggrefact_cnndm      0.6260162601626017
+aggrefact_xsum       0.7806257331442477
+alisawuffles/WANLI       0.8146332239285763
+anli                     0.800099875156055
+bump_cnndm               0.803146483342147
+diasumfact_QMSum        0.6963663514186162
+diasumfact_SAMSum       0.8266632894292469
+fib_cnndm                0.6572160944539382
+fib_xsum                 0.7634876672240802
+gumsum_gumsum           0.90234375
+halueval_cnndm            0.6896475347284695
+instrusum_instrusum      0.5106492614221917
+llm_summaries_cnndm       0.8653277756726033
+llm_summaries_xsum        0.7746539492134894
+scitail                   0.8961919626621409
+tofueval_mediasum          0.7664651086778885
+tofueval_meetingbank       0.8289716748768473
+
+
+
+AlignScore-Large
+DADC-NLI                   {'roc_auc': 0.8698028084032692, 'spearman': 0.6386790454140141, 'pearson': 0.628979639635572}
+DeFacto                  {'roc_auc': 0.7141676271782448, 'spearman': 0.3656923778654654, 'pearson': 0.36087523369864083}
+FoolMeTwice               {'roc_auc': 0.8357169003950873, 'spearman': 0.5814346948163113, 'pearson': 0.5153462453577456}
+Seahorse                 {'roc_auc': 0.6514295627219909, 'spearman': 0.26156923782190156, 'pearson': 0.2833830803957992}
+WiCE                    {'roc_auc': 0.7788598314914105, 'spearman': 0.44679182409285734, 'pearson': 0.40293386688806554}
+aggrefact_cnndm          {'roc_auc': 0.5581442075854415, 'spearman': 0.06402767418444215, 'pearson': 0.0469346923125685}
+aggrefact_xsum             {'roc_auc': 0.7242582348503898, 'spearman': 0.388369116036491, 'pearson': 0.3737646732652871}
+alisawuffles/WANLI        {'roc_auc': 0.8391483590837427, 'spearman': 0.5677227433577906, 'pearson': 0.5705788299762935}
+anli                       {'roc_auc': 0.793175376245009, 'spearman': 0.4791261204176465, 'pearson': 0.4434355295561494}
+bump_cnndm                {'roc_auc': 0.7443973260299792, 'spearman': 0.2810589527841636, 'pearson': 0.2783496437472433}
+diasumfact_QMSum          {'roc_auc': 0.674123275818191, 'spearman': 0.29717616547183157, 'pearson': 0.3089111864860269}
+diasumfact_SAMSum        {'roc_auc': 0.7824679101873036, 'spearman': 0.46974753854129736, 'pearson': 0.4712218472567107}
+fib_cnndm               {'roc_auc': 0.1319677479492916, 'spearman': -0.4863700454228096, 'pearson': -0.5302488889022468}
+fib_xsum                  {'roc_auc': 0.7822682926829267, 'spearman': 0.3407838320391378, 'pearson': 0.3098843647765164}
+gumsum_gumsum           {'roc_auc': 0.7443502824858758, 'spearman': 0.41065884500593475, 'pearson': 0.40870406757111866}
+halueval_cnndm           {'roc_auc': 0.731580976195239, 'spearman': 0.40111001533449664, 'pearson': 0.41406242302032564}
+instrusum_instrusum      {'roc_auc': 0.5956896551724138, 'spearman': 0.1416045303324258, 'pearson': 0.15299298758966767}
+llm_summaries_cnndm     {'roc_auc': 0.7873527265144407, 'spearman': 0.28203516826119507, 'pearson': 0.36468321299922246}
+llm_summaries_xsum         {'roc_auc': 0.725992394522854, 'spearman': 0.3309030332487799, 'pearson': 0.3768200292605687}
+scitail                    {'roc_auc': 0.8809937398716895, 'spearman': 0.6454815130045279, 'pearson': 0.580839630134462}
+tofueval_mediasum         {'roc_auc': 0.7409163547668112, 'spearman': 0.3550145142287484, 'pearson': 0.3974249677625864}
+tofueval_meetingbank     {'roc_auc': 0.8059999999999999, 'spearman': 0.41982003920855776, 'pearson': 0.4633833431113036}
+
+
+
+Unieval
+DADC-NLI                0.815664
+DeFacto                 0.564717
+FoolMeTwice             0.880201
+Seahorse                0.679787
+WiCE                    0.675967
+aggrefact_cnndm         0.704667
+aggrefact_xsum          0.634889
+alisawuffles/WANLI      0.772040
+anli                    0.677980
+bump_cnndm              0.737285
+diasumfact_QMSum        0.617346
+diasumfact_SAMSum       0.646615
+fib_cnndm               0.182047
+fib_xsum                0.678497
+gumsum_gumsum           0.545669
+halueval_cnndm          0.638827
+instrusum_instrusum     0.597126
+llm_summaries_cnndm     0.783651
+llm_summaries_xsum      0.676358
+scitail                 0.837040
+tofueval_mediasum       0.657103
+tofueval_meetingbank    0.808075
