@@ -18,7 +18,7 @@
 
 ---
 
-| Benchmark | AggreFact | BUMP | FiB | LLM S. | HEval | AggreFact | FiB | LLM S. |
+| Benchmark | AggreFact (CNN/DM)| BUMP | FiB (CNN/DM) | LLM S. (CNN/DM)| HEval | AggreFact (XSum)| FiB (XSum)| LLM S. (XSum)|
 |-----------|-----------|------|-----|--------|-------|-----------|-----|--------|
 | **Avg. Lengths** | (498, 55) | (697, 52) | (391, 62) | (458, 69) | (663, 61) | (325, 23) | (231, 20) | (307, 25) |
 | **ROUGE-L** | 69.1 | 51.9 | 4.7 | 85.3 | 42.5 | 47.1 | 38.7 | 60.1 |
